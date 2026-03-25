@@ -55,3 +55,7 @@ nunit-*.xml
 
 # Visual Studio
 .vs/
+
+# Bot Data
+appsettings.json
+CoolBot.db
