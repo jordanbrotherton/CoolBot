@@ -3,7 +3,7 @@ using NetCord.Rest;
 using NetCord.Services.ApplicationCommands;
 using System.Diagnostics;
 
-namespace CoolBot;
+namespace CoolBot.Modules;
 
 public class RoleManager : ApplicationCommandModule<ApplicationCommandContext>
 {
