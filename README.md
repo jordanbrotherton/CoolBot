@@ -8,6 +8,8 @@ CoolBot is a simple bot made for small Discord servers that provides a grab-bag 
 ## Modules
 * **Debt** [`/fine`, `/getdebts`, `/pay`] - Give your friends debt! Fun for jokes or to keep accountability in your server. Whatever you do, don't try to fine CoolBot!
 * **Roles** [`/role`] - Give yourself a nice role color via hex color codes!
+* **Craft** [`/join`] - Whitelist yourself on an external Minecraft server!
+* **Ask** [`/ask`] - Seek CoolBot's magic 8-ball wisdom for your questions!
 
 # Building and Usage
 CoolBot is made with .NET 10 and the NetCord NuGet package.
