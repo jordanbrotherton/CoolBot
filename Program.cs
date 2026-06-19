@@ -6,9 +6,9 @@ using NetCord.Hosting.Services;
 using NetCord.Hosting.Services.ApplicationCommands;
 
 using NetCord.Gateway;
+using CoolBot.Modules;
 
 var builder = Host.CreateApplicationBuilder(args);
-
 builder.Services
     .AddDiscordGateway(options =>
     {
@@ -17,7 +17,7 @@ builder.Services
             Activities = [new UserActivityProperties("Tracking your debts with a close eye...", UserActivityType.Watching)]
         };
     })
-    .AddApplicationCommands();
+    .AddApplicationCommands().AddGatewayHandler<ForumManager>();
 
 var host = builder.Build();
 

@@ -10,6 +10,7 @@ CoolBot is a simple bot made for small Discord servers that provides a grab-bag 
 * **Roles** [`/role`] - Give yourself a nice role color via hex color codes!
 * **Craft** [`/join`] - Whitelist yourself on an external Minecraft server!
 * **Ask** [`/ask`] - Seek CoolBot's magic 8-ball wisdom for your questions!
+* **Forum** - Ping everyone when a forum thread is opened!
 
 # Building and Usage
 CoolBot is made with .NET 10 and the NetCord NuGet package.
